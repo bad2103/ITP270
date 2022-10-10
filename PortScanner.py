@@ -8,7 +8,7 @@ import pyfiglet
 
 subprocess.call('clear', shell=True)
 
-Port_Scanner_Banner = pyfiglet_format("PORT SCANNER")
+Port_Scanner_Banner = pyfiglet.figlet_format("PORT SCANNER")
 print(Port_Scanner_Banner)
 
 time.sleep(1)
