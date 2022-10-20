@@ -34,7 +34,7 @@ def convert_ip(ip):
 def get_banner(s): 
     '''//function grabs any port banner and returns the data received//''' 
     return s.recv(1024)
-    
+def scan_port(ipaddress, port):    
     '''//function scans PORTS of the target and sets the connection 
 timeout to 0.5 to connect (faster but not as accurate increase number for better accuracy) >> If there is a banner, Collect the port banner, strip out the unwanted characters, and print to the terminal window >> If no port banner print open port >> If port is closed pass (print nothing to the terminal)//''' 
     try: 
